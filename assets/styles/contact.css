@@ -1,0 +1,139 @@
+/*  CONTACT */
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 3rem 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-contain  {
+    max-width: 50rem;
+    text-align: center;
+    /*background: center / cover no-repeat url('../../public/img/wall_contact.jpg');*/
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contact-title p {
+    font-weight: 300;
+}
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box {
+    position: relative;
+    display: flex;
+    padding: 1.6rem 0;
+}
+
+.logo-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.text-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.text-info h3 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-container {
+    width: 50%;
+    padding: 2.5rem;
+}
+
+.form-container h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    padding: 1rem 0;
+    
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+.text-contact {
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0.8rem 0;
+}
+
+ #contact_name, #contact_email, #contact_sujet {
+     width: 100%;
+     height: 2.5rem;
+     margin: 1rem 0;
+     border-radius: 0.5rem;
+ }
+
+ #contact_text {
+    width: 100%;
+    height: 5rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+ }
+
+ .contact-submit button {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+ }
+
+ .contact-submit button:hover {
+     background-color: chocolate;
+     color: #fff;
+     cursor: pointer;
+ }
+
+ @media (max-width: 991px) {
+    .section-contact {
+        padding: 3rem;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-info {
+        margin-bottom: 2.2rem;
+    }
+    .contact-info, .form-container {
+        width: 100%;
+    }
+ }
+
